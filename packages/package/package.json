@@ -5,8 +5,9 @@
     "main": "index.js",
     "private": true,
     "scripts": {
-        "serve": "nodemon --exitcrash --exec ts-node -- ./src/index.ts",
-        "serve:dev": "nodemon --verbose"
+        "nodemon": "./node_modules/.bin/nodemon",
+        "serve": "./node_modules/.bin/nodemon --exitcrash --exec ts-node -- ./src/index.ts",
+        "serve:dev": "./node_modules/.bin/nodemon --verbose"
     },
     "nodemonConfig": {
         "ignore": ["ts-node-*/*"],
