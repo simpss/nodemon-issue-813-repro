@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "baseUrl": "",
+        "declaration": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "lib": [
+            "es6",
+            "dom"
+        ],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "outDir": "../dist/js",
+        "target": "es5",
+        "typeRoots": [
+            "../node_modules/@types"
+        ]
+    },
+    "include": [
+        "**/*.ts"
+    ]
+}
+

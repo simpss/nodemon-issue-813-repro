@@ -1,0 +1,1 @@
+docker run --name nodemon-repro --rm -it nodemon-repro
