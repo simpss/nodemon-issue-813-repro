@@ -1,0 +1,1 @@
+docker run --mount type=bind,source=/full/path/to/packages/package/src,target=/opt/packages/package/src --name nodemon-repro --rm -it nodemon-repro
